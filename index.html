@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Match Game</title>
+	<link rel="icon" href="images/blank.jpg" type="image/png" sizes="16x16">
+	<script src="script.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+	<h1>Match Game!</h1>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-md-2" onclick="clickevent('0')"><img src='images/blank.jpg' id="0"></div>
+		<div class="col-md-2" onclick="clickevent('1')"><img src='images/blank.jpg' id="1"></div>
+		<div class="col-md-2" onclick="clickevent('2')"><img src='images/blank.jpg' id="2"></div>
+		<div class="col-md-2" onclick="clickevent('3')"><img src='images/blank.jpg' id="3"></div>
+		<h1>Tries: <div id="tryamount"></div></h1>
+	</div>
+	<div class="row">
+		<div class="col-md-2" onclick="clickevent('4')"><img src='images/blank.jpg' id="4"></div>
+		<div class="col-md-2" onclick="clickevent('5')"><img src='images/blank.jpg' id="5"></div>
+		<div class="col-md-2" onclick="clickevent('6')"><img src='images/blank.jpg' id="6"></div>
+		<div class="col-md-2" onclick="clickevent('7')"><img src='images/blank.jpg' id="7"></div>
+		<div><button onclick="DealingHand()" class='btn btn-primary btn-lg' id='button'>Start!</button></div>
+	</div>
+	<div class="row">
+		<div class="col-md-2" onclick="clickevent('8')"><img src='images/blank.jpg' id="8"></div>
+		<div class="col-md-2" onclick="clickevent('9')"><img src='images/blank.jpg' id="9"></div>
+		<div class="col-md-2" onclick="clickevent('10')"><img src='images/blank.jpg' id="10"></div>
+		<div class="col-md-2" onclick="clickevent('11')"><img src='images/blank.jpg' id="11"></div>
+	</div>
+	<div class="row">
+		<div class="col-md-2" onclick="clickevent('12')"><img src='images/blank.jpg' id="12"></div>
+		<div class="col-md-2" onclick="clickevent('13')"><img src='images/blank.jpg' id="13"></div>
+		<div class="col-md-2" onclick="clickevent('14')"><img src='images/blank.jpg' id="14"></div>
+		<div class="col-md-2" onclick="clickevent('15')"><img src='images/blank.jpg' id="15"></div>
+	</div>
+
+
+</div>
+</body>
+</html>
